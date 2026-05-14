@@ -1,5 +1,6 @@
 //inference -- automatically
 let drink = "chai"
+// drink = 99 --error
 
 let cup = Math.random() > 0.5 ? 10 : 5
 
