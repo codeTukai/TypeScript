@@ -48,6 +48,8 @@ const strData: string = data as string
 
 console.log(data);
 
+//type is --is creating a TypeScript type, not a variable. its It only helps TypeScript during development.“These are the allowed shapes/types of data.”
+
 type Role = "admin" | "user" | "superAdmin"
 
 function roleBased(item:Role): void{
