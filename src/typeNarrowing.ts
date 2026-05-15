@@ -7,7 +7,9 @@ function narrow(kind:string | number){
 }
 
 //truthy 
-function chai(msg?:string){
+function chai(msg?:number | string){
+    msg = "19"
+    msg = 19
     if (msg) {
         return `chai is served ${msg}`
     }
