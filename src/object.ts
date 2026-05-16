@@ -96,13 +96,14 @@ const updateCoffee = (updates: Partial<coffee>)=>{
 
 updateCoffee({price: 40})
 updateCoffee({isAvailable: true} )
+updateCoffee({}) //empty object use basis on partial 
 
 type chaiOrder = {
     name?: string;
     quantity?: number
 }
 
-const takeChai = (order: Required<chaiOrder>)=>{
+const takeChai = (order: Required<chaiOrder>)=>{ //
     console.log(order);
     
 }
@@ -118,7 +119,7 @@ type hello = {
     ingredients: string[]
 }
 
-type basicInfo = Pick<hello, "name" | "price" >;
+type basicInfo = Pick<hello, "name" | "price" >; //
 
 const bio : basicInfo = {
     name : "hello",
