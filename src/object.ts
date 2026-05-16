@@ -27,11 +27,11 @@ tea = {
 }
 
 //alias object
-
+//define the data
 type Tea = {
     name: string;
     price: number;
-    ingredients: string[]
+    ingredients: string[] //array of string
 }
 
 const preparedChai: Tea = {
@@ -41,7 +41,7 @@ const preparedChai: Tea = {
 }
 
 //define 
-
+//duck type
 type Cup = {
     size: string
 };
