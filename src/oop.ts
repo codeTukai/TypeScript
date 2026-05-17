@@ -96,6 +96,7 @@ class newChai extends Make{
         
     }
 }
+
 //composition
 
 class Chaining{
