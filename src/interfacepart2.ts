@@ -64,3 +64,7 @@ const username: User ={
     age:22
 }
 
+interface a {type: string}
+interface b {type: string}
+
+interface c extends a,b {}
